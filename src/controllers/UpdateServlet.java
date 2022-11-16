@@ -78,5 +78,6 @@ public class UpdateServlet extends HttpServlet {
                 // indexページへリダイレクト
                 response.sendRedirect(request.getContextPath() + "/index");
             }
+        }
     }
 }
